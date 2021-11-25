@@ -76,15 +76,18 @@ Applying the Involute extrude to the gear, and emitting it with the translation 
 #### Formation of external gear: Applying the extrude and emitting the external gear with translation of the gear and its rotation. 
 
 Part List:
-1	External Gear	
-2	Shaft	
-3	Internal Gear	
-4	Casing of Internal Gear	
-5	Shaft with splines
+
+1.	External Gear	
+2.	Shaft	
+3.	Internal Gear	
+4.	Casing of Internal Gear	
+5.	Shaft with splines
 
 ## Assembly Description:
 •	The internal gear and the external gear can be printed by the user by following the above given instructions and Parameters and inputs. For the further Assembly parts, a part list is stated above so as to assemble the gear for the desired functioning of gears. 
+
 •	The Internal Gear is mounted in the cylindrical casing. The gear is mounted in casing using the bolts for that the user needs to drill holes on the internal Gear. On the center of the casing there is shaft mounted. The center of the casing that is cut with splines to fit the shaft in the casing. 
+
 •	The external gear is made out of the shaft 
 
 
