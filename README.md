@@ -7,7 +7,7 @@ IceSL forge is a software which is resposible for Modelling and Slicing and it i
 Modelling in ICesl is done with the help of Lua Script. Modelling of the different shapes are done with customization of parameters. 
 Using the same technology, printer instructions (for example, G-code) can be generated efficiently without having to create a mesh. 
 On the other hand, IcesL Slicer is used to generate a the printng command of the STL file or a Lua script model. Using the slicing technology, it generates G-code for the printer
-https://icesl.loria.fr/features/
+[icesl Loria] https://icesl.loria.fr/features/
 
 ## What is an Internal Gear?
 An internal gear is a gear which has its teeth cut into the internal surface of a cylinder and meshes with a spur gear.Alternatively, an internal gear may be referred to as a ring gear. An internal gear is an important component of planetary gearboxes, but it can also be utilized elsewhere. Planetary gear trains are advantageous in terms of low vibrations, high speed reduction ratios, and cost effectiveness. Since the centers of the mating wheels can be closer than those of external gears, internal spur gears are preferred in applications where space is limited. Power transmissions in hybrid vehicles, robotic arms, and turbine generators are examples of planetary gear transmissions. Just like external gears, internal gears can also be cut in helical gears. Internal gears like these can be found in some internal gear drives, pair drives, differential drives, and planetary drives. It is necessary to design special housings to house the internal gear. https://www.marplesgears.com/2019/11/internal-gears/
@@ -42,6 +42,7 @@ For the calculation of Involute function of the pressure angle, the difference b
 #### Function 1: inserting the involute curve with the base radius and the involute angle. And rotating the contour. 
 
 
+
 #### Function 2: To Mirror the Involute Curve 
 
 
@@ -62,5 +63,28 @@ To iterate the points for the fillet, a for loop is mentioned
 
 To iterate the points for the fillet, a for loop is mentioned
 
+For Loop: The Gear tooth with the Involute and fillet is made by iterating the points in loop
+
+#### Function 9: Circle Formation for the teeth to form around the gear 
+
+#### Function 10: this function extrudes the Internal Gear
+
+Applying the Involute extrude to the gear, and emitting it with the translation of the gear position.
+
+#### Formation of internal gear: Applying the extrude and taking the difference and emitting the Internal gear with the rotation of gear
+
+#### Formation of external gear: Applying the extrude and emitting the external gear with translation of the gear and its rotation. 
+
+Part List:
+1	External Gear	
+2	Shaft	
+3	Internal Gear	
+4	Casing of Internal Gear	
+5	Shaft with splines
+
+## Assembly Description:
+•	The internal gear and the external gear can be printed by the user by following the above given instructions and Parameters and inputs. For the further Assembly parts, a part list is stated above so as to assemble the gear for the desired functioning of gears. 
+•	The Internal Gear is mounted in the cylindrical casing. The gear is mounted in casing using the bolts for that the user needs to drill holes on the internal Gear. On the center of the casing there is shaft mounted. The center of the casing that is cut with splines to fit the shaft in the casing. 
+•	The external gear is made out of the shaft 
 
 
