@@ -39,5 +39,28 @@ Some Parameters are user defined. And the other parameters that are also require
 For the calculation of Involute function of the pressure angle, the difference between the number of teeth of internal gears and that of external gear is taken to be 8 so as to avoid any interference during the meshing of the gears. 
 ![image](https://user-images.githubusercontent.com/92062404/143455044-59777a52-453e-47e7-9079-1c472d827743.png)
 
+#### Function 1: inserting the involute curve with the base radius and the involute angle. And rotating the contour. 
+![Uploading image.png…]()
+
+#### Function 2: To Mirror the Involute Curve 
+![Uploading image.png…]()
+
+#### Function 3: To Rotate the Contour of the Involute 
+![Uploading image.png…]()
+
+#### Function 4: This function gives a point at a given angle theta of a circle.
+![Uploading image.png…]()
+
+#### Function 5: This function is intended to create a circle with a radius r. Using the command ‘v’ to fill the table with vectors. When function is called it takes the input of radius r and the ab points are required for the generation of circle. 
+
+#### Function 6: This function is intended for calculating the involute angle. The radius of the Addendum circle and base circle are passed as an input for obtaining corresponding involute angle. And then the slope of one line is defined for determining the fillet radius. 
+
+#### Function 7: This function is intended to start and stop the involute tooth between addendum radius and base radius.
+
+#### Function 8: Fillet formation of the bottom profile of the gear with slope of the line and with fillet radius and base radius. A line parallel to the slope of line is formed so as to find the point to form the circle. The point of intersection of the fillet circle and the base radius gives the fillet radius. 
+To iterate the points for the fillet, a for loop is mentioned
+
+To iterate the points for the fillet, a for loop is mentioned
+
 
 
