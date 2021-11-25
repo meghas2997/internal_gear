@@ -14,10 +14,11 @@ An internal gear is a gear which has its teeth cut into the internal surface of 
 
 ## Description of the Code
 We have paramtrically designed the Internal gears assembly including an internal gear and the external gear. There is a User Interface Box in IcesL with has the components with the following parameters:
-Markup :  `code(num_of_teeth=ui_number("Number Of Teeth",24,20,50);				-- number of teeth
+`code()`
+num_of_teeth=ui_number("Number Of Teeth",24,20,50);				-- number of teeth
 module_gear=ui_number("Module Of Gear",3,2,25);					-- module
 pressure_angle=ui_scalar("Pressure Angle",20,20,25);			-- pressure angle
 width=ui_scalar("Width",15,5,20);								-- face width
 profile_shift=ui_scalar("Profile Shift Factor",0,0,2.7);		-- profile shift coefficient
 rotation = ui_numberBox ("Rotation of gear",0)*2;				-- 
-f_r=ui_number("Fillet radius", 2,0,3)	)`
+f_r=ui_number("Fillet radius", 2,0,3)	
