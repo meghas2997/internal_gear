@@ -31,7 +31,13 @@ There is a User Interface Box in IcesL with has the components with the followin
 The above parameters are defined as a user interface in the following way: 
 ![image](https://user-images.githubusercontent.com/92062404/143454775-c0246d67-c877-4ba9-9aff-96e47c89a0aa.png)
 
+Some Parameters are user defined. And the other parameters that are also required for the gear modelling are defined using the Derived Inputs. 
+![image](https://user-images.githubusercontent.com/92062404/143454939-1f31e7aa-0759-4f6f-9e07-b19177f44b45.png)
+![image](https://user-images.githubusercontent.com/92062404/143454966-5e2922d3-e537-48f9-b12f-9df5871beed0.png)
 
-There is a formation of one gear tooth and then the whole gear is formed around the circle. After this there is a mathematical relation between the number of theeth of inetrnal gear and external gear i.e. 
+### Parameters with Some dependencies: 
+For the calculation of Involute function of the pressure angle, the difference between the number of teeth of internal gears and that of external gear is taken to be 8 so as to avoid any interference during the meshing of the gears. 
+![image](https://user-images.githubusercontent.com/92062404/143455044-59777a52-453e-47e7-9079-1c472d827743.png)
+
 
 
