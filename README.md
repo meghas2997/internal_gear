@@ -86,7 +86,8 @@ Applying the Involute extrude to the gear, and emitting it with the translation 
 
 #### Formation of external gear: Applying the extrude and emitting the external gear with translation of the gear and its rotation. 
 ![image](https://user-images.githubusercontent.com/92062404/143465940-15b5e1c8-7851-4420-b93f-ccd07ac6f490.png)
-![image](https://user-images.githubusercontent.com/92062404/143465957-1d37e9fb-cf21-45b4-b047-734452973fff.png)
+![image](https://user-images.githubusercontent.com/92062404/143466476-dbf15400-2f70-45c0-8d14-b51b1d92f01f.png)
+
 
 
 ## Assembly Description:
