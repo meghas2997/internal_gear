@@ -40,16 +40,16 @@ For the calculation of Involute function of the pressure angle, the difference b
 ![image](https://user-images.githubusercontent.com/92062404/143455044-59777a52-453e-47e7-9079-1c472d827743.png)
 
 #### Function 1: inserting the involute curve with the base radius and the involute angle. And rotating the contour. 
-![Uploading image.png…]()
+
 
 #### Function 2: To Mirror the Involute Curve 
-![Uploading image.png…]()
+
 
 #### Function 3: To Rotate the Contour of the Involute 
-![Uploading image.png…]()
+
 
 #### Function 4: This function gives a point at a given angle theta of a circle.
-![Uploading image.png…]()
+
 
 #### Function 5: This function is intended to create a circle with a radius r. Using the command ‘v’ to fill the table with vectors. When function is called it takes the input of radius r and the ab points are required for the generation of circle. 
 
