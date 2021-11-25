@@ -14,9 +14,8 @@ An internal gear is a gear which has its teeth cut into the internal surface of 
 
 ## Description of the Code
 We have paramtrically designed the Internal gears assembly including an internal gear and the external gear. There is a User Interface Box in IcesL with has the components with the following parameters:
-*Bullet List
-Number of teeth (Default value, Minimum value, Maximum Value)
-Module of gear (Default value, Minimum value, Maximum Value)
+*Number of teeth (Default value, Minimum value, Maximum Value)
+*Module of gear (Default value, Minimum value, Maximum Value)
 Pressure angle (Default value, Minimum value, Maximum Value)
 width (Default value, Minimum value, Maximum Value)
 Profile shift (Default value, Minimum value, Maximum Value)
