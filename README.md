@@ -11,6 +11,8 @@ On the other hand, IcesL Slicer is used to generate a the printng command of the
 
 ## What is an Internal Gear?
 An internal gear is a gear which has its teeth cut into the internal surface of a cylinder and meshes with a spur gear.Alternatively, an internal gear may be referred to as a ring gear. An internal gear is an important component of planetary gearboxes, but it can also be utilized elsewhere. Planetary gear trains are advantageous in terms of low vibrations, high speed reduction ratios, and cost effectiveness. Since the centers of the mating wheels can be closer than those of external gears, internal spur gears are preferred in applications where space is limited. Power transmissions in hybrid vehicles, robotic arms, and turbine generators are examples of planetary gear transmissions. Just like external gears, internal gears can also be cut in helical gears. Internal gears like these can be found in some internal gear drives, pair drives, differential drives, and planetary drives. It is necessary to design special housings to house the internal gear. https://www.marplesgears.com/2019/11/internal-gears/
+![Internal Gear](https://user-images.githubusercontent.com/92062404/143466835-f8b3183a-4e8d-49ed-8a3b-fa11dca17827.png)
+[Own rendered STL file image]
 
 ## Description of the Script
 We have paramtrically designed the Internal gears assembly including an internal gear and the external gear. 
