@@ -23,6 +23,6 @@ We have paramtrically designed the Internal gears assembly including an internal
 5. Profile shift (Default value, Minimum value, Maximum Value)
 6. Fillet Radius (Default value, Minimum value, Maximum Value)
 
-'num_of_teeth=ui_number("Number Of Teeth",24,20,50);'
+'num_of_teeth=ui_number("Number Of Teeth",24,20,50);()'
 
 
