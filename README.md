@@ -12,19 +12,26 @@ https://icesl.loria.fr/features/
 ## What is an Internal Gear?
 An internal gear is a gear which has its teeth cut into the internal surface of a cylinder and meshes with a spur gear.Alternatively, an internal gear may be referred to as a ring gear. An internal gear is an important component of planetary gearboxes, but it can also be utilized elsewhere. Planetary gear trains are advantageous in terms of low vibrations, high speed reduction ratios, and cost effectiveness. Since the centers of the mating wheels can be closer than those of external gears, internal spur gears are preferred in applications where space is limited. Power transmissions in hybrid vehicles, robotic arms, and turbine generators are examples of planetary gear transmissions. Just like external gears, internal gears can also be cut in helical gears. Internal gears like these can be found in some internal gear drives, pair drives, differential drives, and planetary drives. It is necessary to design special housings to house the internal gear. https://www.marplesgears.com/2019/11/internal-gears/
 
-## Description of the Code
-We have paramtrically designed the Internal gears assembly including an internal gear and the external gear. There is a User Interface Box in IcesL with has the components with the following parameters:
+## Description of the Script
+We have paramtrically designed the Internal gears assembly including an internal gear and the external gear. 
+The assembly consists of the meshing of the internal and external gear which have an involute tooth profile and simplified fillet geometry. The code allows to input various values in order to get the desired output that ensures proper meshing of the gear. 
+
+### Defined Parameters
+Before the functional part, the defined parameters are mentioned. The base parameters are considered to be the first step for modelling in the code. Some of these parameters are user defined and the other parameters are derived from the inputs given. Through the tweak box the user can change the values to analyze the variations in the model. 
+
+There is a User Interface Box in IcesL with has the components with the following parameters:
 
 1. Number of teeth (Default value, Minimum value, Maximum Value)
-
 2. Module of gear (Default value, Minimum value, Maximum Value)
 3. Pressure angle (Default value, Minimum value, Maximum Value)
 4. width (Default value, Minimum value, Maximum Value)
 5. Profile shift (Default value, Minimum value, Maximum Value)
 6. Fillet Radius (Default value, Minimum value, Maximum Value)
 
-'code()'
+The above parameters are defined as a user interface in the following way: 
+![image](https://user-images.githubusercontent.com/92062404/143454775-c0246d67-c877-4ba9-9aff-96e47c89a0aa.png)
 
-num_of_teeth=ui_number("Number Of Teeth",24,20,50);
+
+There is a formation of one gear tooth and then the whole gear is formed around the circle. After this there is a mathematical relation between the number of theeth of inetrnal gear and external gear i.e. 
 
 
